@@ -9,7 +9,8 @@
     "build": "node build/build.js",
     "lint": "eslint --ext .js,.vue src test",
     "lint:fix": "npm run lint --fix",
-    "unit": "tape ./test/specs/*.spec.js -r ./test/setup.js | tap-spec"
+    "unit": "tape ./test/specs/*.spec.js -r ./test/setup.js | tap-spec",
+    "test": "tape ./test/specs/*.spec.js -r ./test/setup.js | tap-spec"
   },
   "dependencies": {
     "vue": "^2.5.2",
