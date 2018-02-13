@@ -1,6 +1,6 @@
 # tape-vue-example
 
-> An example project using vue-test-utils and tape to run unit tests
+> Example project with .vue files, using vue-test-utils and Tape to run unit tests.
 
 ## Just Want to Get Started?
 
