@@ -1,8 +1,21 @@
-# vue-test-utils-jest-example
+# tape-vue-example
 
-> An example project using vue-test-utils and jest to run unit tests
+> An example project using vue-test-utils and tape to run unit tests
 
-## Build Setup
+``` bash
+# install dependencies
+npm install
+```
+
+## Test
+
+Not the usual `node test.js` used for basic Tape:
+
+``` bash
+npm t
+```
+
+## Commands for Build Setup
 
 ``` bash
 # install dependencies
@@ -16,14 +29,6 @@ npm run build
 
 # build for production and view the bundle analyzer report
 npm run build --report
-```
-
-## Test
-
-Not the usual `node test.js` used for basic Tape:
-
-``` bash
-npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
