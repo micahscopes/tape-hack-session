@@ -2,18 +2,16 @@
 
 > An example project using vue-test-utils and tape to run unit tests
 
+## Just Want to Get Started?
+
 ``` bash
-# install dependencies
+git clone https://github.com/hchiam/tape-vue-example.git
+cd tape-vue-example
 npm install
-```
-
-## Test
-
-Not the usual `node test.js` used for basic Tape:
-
-``` bash
 npm t
 ```
+
+(Note: use `npm t`, not the usual `node test.js` used for basic Tape.)
 
 ## Commands for Build Setup
 
