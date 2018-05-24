@@ -1,32 +1,32 @@
-# tape-vue-example
+# tape-vue-hack-session
 
-> Example project with .vue files, using vue-test-utils and Tape to run unit tests.
+> Example project with .vue files, using vue-test-utils and Tape to run unit tests. (forked from [eddyerburgh](https://github.com/eddyerburgh/tape-vue-example))
 
 ## Just Want to Get Started?
 
 ``` bash
-git clone https://github.com/hchiam/tape-vue-example.git
-cd tape-vue-example
-npm install
-npm t
+git clone https://github.com/micahscopes/tape-vue-hack-session.git
+cd tape-vue-hack-session
+yarn install
+yarn test
 ```
 
-(Note: use `npm t`, not the usual `node test.js` used for basic Tape.)
+(Note: use `yarn test`, not the usual `node test.js` used for basic Tape.)
 
 ## Commands for Build Setup
 
 ``` bash
 # install dependencies
-npm install
+yarn
 
 # serve with hot reload at localhost:8080
-npm run dev
+yarn run dev
 
 # build for production with minification
-npm run build
+yarn run build
 
 # build for production and view the bundle analyzer report
-npm run build --report
+yarn run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
